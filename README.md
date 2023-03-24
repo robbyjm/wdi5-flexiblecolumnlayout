@@ -1,15 +1,7 @@
-[![Build Status](https://travis-ci.org/SAP/openui5-basic-template-app.svg?branch=master)](https://travis-ci.org/SAP/openui5-basic-template-app)
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP/openui5-basic-template-app)](https://api.reuse.software/info/github.com/SAP/openui5-basic-template-app)
 ![OpenUI5 logo](http://openui5.org/images/OpenUI5_new_big_side.png)
 
-# openui5-basic-template-app
-OpenUI5 basic template app using the UI5 Build and Development Tooling. You can use it as a starting point to build custom OpenUI5 apps.
-
-## More information
-* [Live Demo](https://sap.github.io/openui5-basic-template-app)
-* [Documentation](https://openui5.hana.ondemand.com/#/topic/7a4d93c0b0bb439b9d889ffc5b02eac9)
-* [UI5 Tooling](https://github.com/SAP/ui5-tooling)
-* [OpenUI5](https://github.com/SAP/openui5)
+# wdi5-flexiblecolumnlayout
+Sample application to showing it is possible to target controls in nested views.
 
 ## Prerequisites
 The **UI5 build and development tooling command line interface (UI5 CLI)** has to be installed.
@@ -18,8 +10,8 @@ For installation instructions please see [Installing the UI5 CLI](https://github
 ## Setup
 1. Clone the repository and navigate into it
     ```sh
-    git clone https://github.com/SAP/openui5-basic-template-app.git
-    cd openui5-basic-template-app
+    git clone git@github.com:robbyjm/wdi5-flexiblecolumnlayout.git
+    cd wdi5-flexiblecolumnlayout
     ```
 1. Install all dependencies
     ```sh
@@ -31,22 +23,8 @@ For installation instructions please see [Installing the UI5 CLI](https://github
     ui5 serve -o /index.html
     ```
 
-## Testing
-* Run ESLint code validation
+## WDI5 Tests
+* Run WDI5 test
     ```sh
-    npm run lint
+    npm run wdi5
     ```
-* Start a local server and execute the tests automatically after every change
-    ```sh
-    npm run watch
-    ```
-* Run ESLint, start a local server and run the tests in CI mode
-    ```sh
-    npm test
-    ```
-
-For more build and development options please see: [UI5 Build and Development Tooling](https://github.com/SAP/ui5-tooling)
-
-## Support
-This repository is based on the [OpenUI5 template demo apps](https://openui5.hana.ondemand.com/#/demoapps) and updated regularly with our latest recommendations. 
-If you found a bug, please create an [OpenUI5 issue](https://github.com/sap/openui5/issues). Thank you!
