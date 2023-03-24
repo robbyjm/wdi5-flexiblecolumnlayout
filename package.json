@@ -14,21 +14,21 @@
         "wdi5": "wdio run ./wdio.conf.js"
     },
     "devDependencies": {
-        "@ui5/cli": "^2.14.2",
-        "@wdio/cli": "^7.30.0",
-        "@wdio/local-runner": "^7.30.0",
-        "@wdio/mocha-framework": "^7.26.0",
-        "@wdio/spec-reporter": "^7.29.1",
-        "chromedriver": "^109.0.0",
+        "@wdio/cli": "v7",
+        "@ui5/cli": "x",
+        "@wdio/local-runner": "v7",
+        "@wdio/mocha-framework": "v7",
+        "@wdio/spec-reporter": "v7",
+        "chromedriver": "x",
         "eslint": "^8.6.0",
         "karma": "^6.3.10",
         "karma-chrome-launcher": "^3.1.0",
         "karma-coverage": "^2.1.0",
         "karma-ui5": "^2.4.0",
         "rimraf": "^3.0.2",
-        "ui5-middleware-livereload": "^0.7.0",
-        "wdio-chromedriver-service": "^7.3.2",
-        "wdio-ui5-service": "^1.0.5"
+        "ui5-middleware-livereload": "x",
+        "wdio-chromedriver-service": "7.3.2",
+        "wdio-ui5-service": "x"
     },
     "ui5": {
         "dependencies": [
