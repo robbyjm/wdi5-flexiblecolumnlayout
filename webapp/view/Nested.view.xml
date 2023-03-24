@@ -1,0 +1,16 @@
+<mvc:View
+	controllerName="sap.ui.demo.basicTemplate.controller.Nested"
+	displayBlock="true"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Page
+		id="page"
+		title="Nested.view.xml">
+		<content>
+            <List>
+                <ObjectListItem title="Macbook Air" numberState="Success" number="999"></ObjectListItem>
+                <ObjectListItem title="Macbook Pro" numberState="Warning" number="1500"></ObjectListItem>
+            </List>
+		</content>
+	</Page>
+</mvc:View>

@@ -2,12 +2,20 @@
 	controllerName="sap.ui.demo.basicTemplate.controller.Home"
 	displayBlock="true"
 	xmlns="sap.m"
+	xmlns:f="sap.f"
 	xmlns:mvc="sap.ui.core.mvc">
 	<Page
 		id="page"
-		title="{i18n>title}">
+		title="Home.view.xml">
 		<content>
-			<Button id="button"></Button>
+			<f:FlexibleColumnLayout layout="TwoColumnsMidExpanded">
+				<f:beginColumnPages>
+					<mvc:XMLView viewName="sap.ui.demo.basicTemplate.view.Nested"></mvc:XMLView>
+				</f:beginColumnPages>
+				<f:midColumnPages>
+					<mvc:XMLView viewName="sap.ui.demo.basicTemplate.view.NestedNested"></mvc:XMLView>
+				</f:midColumnPages>
+			</f:FlexibleColumnLayout>
 		</content>
 	</Page>
 </mvc:View>

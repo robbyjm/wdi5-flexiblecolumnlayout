@@ -1,0 +1,21 @@
+<mvc:View
+	controllerName="sap.ui.demo.basicTemplate.controller.NestedNested"
+	displayBlock="true"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Page
+		id="page"
+		title="NestedNested.view.xml">
+		<content>
+
+		</content>
+		<footer>
+			<Bar>
+				<contentRight>
+					<Button type="Emphasized" text="Find me"></Button>
+					<Button type="Emphasized" text="Some other button"></Button>
+				</contentRight>
+			</Bar>
+		</footer>
+	</Page>
+</mvc:View>
