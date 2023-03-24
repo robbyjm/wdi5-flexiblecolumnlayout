@@ -1,11 +1,9 @@
-![OpenUI5 logo](http://openui5.org/images/OpenUI5_new_big_side.png)
+![Shows the button that is targeted in the DOM](images/1.png)
+![Shows the targeted control in the debugger](images/2.png)
+![Shows that the button is nested in a view in a flexible column layout](images/3.png)
 
 # wdi5-flexiblecolumnlayout
 Sample application to showing it is possible to target controls in nested views.
-
-## Prerequisites
-The **UI5 build and development tooling command line interface (UI5 CLI)** has to be installed.
-For installation instructions please see [Installing the UI5 CLI](https://github.com/SAP/ui5-tooling#installing-the-ui5-cli).
 
 ## Setup
 1. Clone the repository and navigate into it
