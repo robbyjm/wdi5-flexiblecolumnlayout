@@ -1,9 +1,8 @@
+# wdi5-flexiblecolumnlayout
+Sample application to showing it is possible to target controls in nested views.
 ![Shows the button that is targeted in the DOM](images/1.png)
 ![Shows the targeted control in the debugger](images/2.png)
 ![Shows that the button is nested in a view in a flexible column layout](images/3.png)
-
-# wdi5-flexiblecolumnlayout
-Sample application to showing it is possible to target controls in nested views.
 
 ## Setup
 1. Clone the repository and navigate into it
